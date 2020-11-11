@@ -4,6 +4,11 @@ import Navigation from './Components/Navigation/Navigation.js'
 import Logo from './Components/Logo/Logo.js'
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm.js'
 import Rank from './Components/Rank/Rank.js'
+import Clarifai from 'clarifai';
+
+const app = new Clarifai.App({
+apiKey:'be1303e74add4a3cacf6660a8b25c24e'
+});
 
 class App extends Component {
   constructor(){
@@ -20,6 +25,16 @@ class App extends Component {
 
   onSubmit=()=>{
     console.log('click');
+    app.models.predict("apikey", "https://samples.clarifai.com/face-det.jpg").then(
+      function(response){
+        console.log(response);
+      },
+      function(err){
+
+      }
+
+      );
+
   }
   render(){
   return (

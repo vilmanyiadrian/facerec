@@ -1,6 +1,7 @@
 import react, {Component} from 'react';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation.js'
+import FaceRecognition from './Components/FaceRecognition/FaceRecognition.js'
 import Logo from './Components/Logo/Logo.js'
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm.js'
 import Rank from './Components/Rank/Rank.js'
@@ -15,17 +16,18 @@ class App extends Component {
     super();
     this.state = {
       input:'',
+      imageurl:''
     }
   }
 
   onInputChange=(event)=>{
-      console.log(event.target.value);
+      this.setState({input: event.target.value});
 
   }
 
   onSubmit=()=>{
-    console.log('click');
-    app.models.predict("apikey", "https://samples.clarifai.com/face-det.jpg").then(
+    this.setState({imageurl: this.state.input});
+    app.models.predict("d02b4508df58432fbb84e800597b8959", "https://samples.clarifai.com/face-det.jpg").then(
       function(response){
         console.log(response);
       },
@@ -38,12 +40,12 @@ class App extends Component {
   }
   render(){
   return (
-    <div className="App" className="wrapper">
+    <div className="App wrapper">
       <Navigation />
       <Logo />
       <Rank />
-      <ImageLinkForm onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>{/*
-      <FaceRecognition />*/}
+      <ImageLinkForm onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>
+      <FaceRecognition imageurl={this.state.imageurl}/>
     </div>
   );
 }

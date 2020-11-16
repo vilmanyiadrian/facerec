@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation.js'
 import FaceRecognition from './Components/FaceRecognition/FaceRecognition.js'
@@ -21,7 +21,7 @@ class App extends Component {
     }
   }
 
-  calculateFaceLocation=(data)=>
+  calculateFaceLocation = (data)=>
   {
     const clarifaiface = data.outputs[0].data.regions[0].region_info.bounding_box;
     const image = document.getElementById('inputimage')
@@ -58,6 +58,7 @@ displayFaceBox=(box)=>{
   render(){
   return (
     <div className="App wrapper">
+
       <Navigation />
       <Logo />
       <Rank />

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/facerec/static/css/main.393c7083.chunk.css",
-    "main.js": "/facerec/static/js/main.cdf84882.chunk.js",
-    "main.js.map": "/facerec/static/js/main.cdf84882.chunk.js.map",
-    "runtime-main.js": "/facerec/static/js/runtime-main.874bcb49.js",
-    "runtime-main.js.map": "/facerec/static/js/runtime-main.874bcb49.js.map",
+    "main.css": "/facerec/static/css/main.727586ec.chunk.css",
+    "main.js": "/facerec/static/js/main.755527cf.chunk.js",
+    "main.js.map": "/facerec/static/js/main.755527cf.chunk.js.map",
+    "runtime-main.js": "/facerec/static/js/runtime-main.394ac566.js",
+    "runtime-main.js.map": "/facerec/static/js/runtime-main.394ac566.js.map",
     "static/css/2.31461e4f.chunk.css": "/facerec/static/css/2.31461e4f.chunk.css",
-    "static/js/2.eb4e46b4.chunk.js": "/facerec/static/js/2.eb4e46b4.chunk.js",
-    "static/js/2.eb4e46b4.chunk.js.map": "/facerec/static/js/2.eb4e46b4.chunk.js.map",
-    "static/js/3.3cd628a3.chunk.js": "/facerec/static/js/3.3cd628a3.chunk.js",
-    "static/js/3.3cd628a3.chunk.js.map": "/facerec/static/js/3.3cd628a3.chunk.js.map",
+    "static/js/2.9f05a432.chunk.js": "/facerec/static/js/2.9f05a432.chunk.js",
+    "static/js/2.9f05a432.chunk.js.map": "/facerec/static/js/2.9f05a432.chunk.js.map",
+    "static/js/3.9ccb35c9.chunk.js": "/facerec/static/js/3.9ccb35c9.chunk.js",
+    "static/js/3.9ccb35c9.chunk.js.map": "/facerec/static/js/3.9ccb35c9.chunk.js.map",
     "index.html": "/facerec/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/facerec/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.393c7083.chunk.css.map": "/facerec/static/css/main.393c7083.chunk.css.map",
-    "static/js/2.eb4e46b4.chunk.js.LICENSE.txt": "/facerec/static/js/2.eb4e46b4.chunk.js.LICENSE.txt",
+    "static/css/main.727586ec.chunk.css.map": "/facerec/static/css/main.727586ec.chunk.css.map",
+    "static/js/2.9f05a432.chunk.js.LICENSE.txt": "/facerec/static/js/2.9f05a432.chunk.js.LICENSE.txt",
     "static/media/face.a68c2336.jpg": "/facerec/static/media/face.a68c2336.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.874bcb49.js",
+    "static/js/runtime-main.394ac566.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.eb4e46b4.chunk.js",
-    "static/css/main.393c7083.chunk.css",
-    "static/js/main.cdf84882.chunk.js"
+    "static/js/2.9f05a432.chunk.js",
+    "static/css/main.727586ec.chunk.css",
+    "static/js/main.755527cf.chunk.js"
   ]
 }
